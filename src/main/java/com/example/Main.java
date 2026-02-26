@@ -2,8 +2,8 @@ package main.java.com.example;
 
 public class Main {
     public static void main(String[] args) {
-        producto p1 = new producto("p001", "laptop", 1200.0, 50);
-        producto p2 = new producto("p002", "celular", 800.0, 30);
+        Product p1 = new Product("p001", "laptop", 1200.0, 50);
+        Product p2 = new Product("p002", "celular", 800.0, 30);
 
         p1.setprecio(1100.0);
         p2.setcantidad(25);

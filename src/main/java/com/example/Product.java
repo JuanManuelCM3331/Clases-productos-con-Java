@@ -1,13 +1,13 @@
 package main.java.com.example;
 
-public class producto {
+public class Product {
 
     private String id;
     private String nombre;
     private double precio;
     private int cantidad;
 
-    public producto(String id, String nombre, double precio, int cantidad) {
+    public Product(String id, String nombre, double precio, int cantidad) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
