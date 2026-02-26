@@ -14,37 +14,37 @@ public class Product {
         this.cantidad = cantidad;
     }
 
-    public String getid() {
+    public String getId() {
         return id;
     }
 
-    public String getnombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public double getprecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public int getcantidad() {
+    public int getCantidad() {
         return cantidad;
     }
 
-    public void setnombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public void setprecio(double precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
-    public void setcantidad(int cantidad) {
+    public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
 
     @Override
     public String toString() {
-        return "producto [id: " + id + ", nombre: " + nombre +
-               ", precio: " + precio + ", cantidad: " + cantidad + "]";
+        return "Producto [ID: " + id + ", Nombre: " + nombre +
+               ", Precio: " + precio + ", Cantidad: " + cantidad + "]";
     }
 }
